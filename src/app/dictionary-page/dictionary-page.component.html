@@ -1,0 +1,8 @@
+
+<div *ngFor="let item of listWords">
+    <a [routerLink]="['/dictionary', item.key]">{{item.key }}</a>
+</div>
+<hr>
+<div>
+    <router-outlet></router-outlet>
+</div>
