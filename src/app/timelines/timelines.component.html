@@ -1,7 +1,11 @@
+<br>
 <h2>Ứng dụng tính thời gian sống</h2>
-
-<div>
-    <input type="text" (change)="onChange($event.target.value)">
+<br>
+<div class="row">
+    <div class="col-8">
+        <input type="date" class="form-control" (change)="onChange($event.target.value)">
+    </div>
 </div>
+<br>
 
 <p> {{ output }} </p>

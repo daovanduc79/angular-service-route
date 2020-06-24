@@ -1,0 +1,9 @@
+<h2>Youtobe Playlist</h2>
+
+<ul>
+    <li *ngFor="let item of playList">
+        <a [routerLink]="['/youtobe', item.id]">{{item.song}}</a>
+    </li>
+</ul>
+
+<router-outlet></router-outlet>

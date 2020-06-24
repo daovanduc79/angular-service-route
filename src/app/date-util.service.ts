@@ -10,7 +10,7 @@ export class DateUtilService {
 
   getDiffToNow(diff: string | number | Date): any {
 
-    const result: string[] = ['Bạn đã sống : '];
+    const result: string[] = ['Bạn đã sống: '];
     const now = new Date();
     diff = new Date(diff);
 
